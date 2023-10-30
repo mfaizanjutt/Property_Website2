@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Carousel</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+     <!-- Testimonial Start -->
+
+<section class="container testimonials_container mySwiper">
+  <h2>Students Testimonials</h2>
+  <div class="swiper-wrapper">
+      <aricle class="tetimonial swiper-slide">
+          <div class="avatar">
+              <img src="images/bright-and-sunny-flat-600x375.jpg" alt="">
+          </div>
+          <div class="testimonials_info">
+              <h5>Diyana Ayi</h5>
+              <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore dolor architecto error,
+                  accusantium dolorem odit magni commodi voluptatum sint quis minus beatae dicta pariatur optio.
+              </p>
+          </div>
+      </aricle>
+      <aricle class="tetimonial swiper-slide">
+          <div class="avatar">
+              <img src="images/minimalist-and-bright-flat-600x375.jpg" alt="">
+          </div>
+          <div class="testimonials_info">
+              <h5>Diyana Ayi</h5>
+              <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore dolor architecto error,
+                  accusantium dolorem odit magni commodi voluptatum sint quis minus beatae dicta pariatur optio.
+              </p>
+          </div>
+      </aricle>
+      <aricle class="tetimonial swiper-slide">
+          <div class="avatar">
+              <img src="images/modern-apartment-in-the-city-center-600x375.jpg" alt="">
+          </div>
+          <div class="testimonials_info">
+              <h5>Diyana Ayi</h5>
+              <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore dolor architecto error,
+                  accusantium dolorem odit magni commodi voluptatum sint quis minus beatae dicta pariatur optio.
+              </p>
+          </div>
+      </aricle>
+      <aricle class="tetimonial swiper-slide">
+          <div class="avatar">
+              <img src="images/two-storey-modern-flat-600x375.jpg" alt="">
+          </div>
+          <div class="testimonials_info">
+              <h5>Diyana Ayi</h5>
+              <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore dolor architecto error,
+                  accusantium dolorem odit magni commodi voluptatum sint quis minus beatae dicta pariatur optio.
+              </p>
+          </div>
+      </aricle>
+      <aricle class="tetimonial swiper-slide">
+          <div class="avatar">
+              <img src="images/warm-and-modern-studio-apartment-600x375.jpg" alt="">
+          </div>
+          <div class="testimonials_info">
+              <h5>Diyana Ayi</h5>
+              <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore dolor architecto error,
+                  accusantium dolorem odit magni commodi voluptatum sint quis minus beatae dicta pariatur optio.
+              </p>
+          </div>
+      </aricle>
+  </div>
+  <div class="swiper-pagination"></div>
+
+</section>
+<!-- testimonial endsssssssssssssssssssssssssssssssssssssssssssssssssssss -->
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        // when window width >600
+        breakpoints:{
+            600:{
+                slidesPerView: 2,
+                
+            }
+        }
+      });
+    </script>
+
+</body>
+</html>

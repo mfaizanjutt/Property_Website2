@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYHome</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+
+        <!-- bootstrap -->
+        
+</head>
+
+<body>
+    <div class="container-fluid nav-position">
+        <div class="container">
+            <div class="nav-bar-1">
+                <div class="row">
+                    <div class="col col-2 logo ">
+                        <img src="./icons/logo-50-mint-black.png" alt="">
+                    </div>
+                    <div class="col-2 nav-items">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <div><a href="#">123456789</a></div>
+                    </div>
+                    <div class="col-2 nav-items">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div><a href="#">518-520 5th Ave,<br> New York, USA</a></div>
+                    </div>
+                    <div class="col-2 nav-items">
+                        <i class="fa-regular fa-envelope"></i>
+                        <div><a href="#">support@tangibledesign.net</a></div>
+                    </div>
+                    <div class=".col col-2 nav-items apps">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+
+        <div class="navbar">
+
+            <div class="dropdown">
+                <button class="dropbtn">Home
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Demos
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Properties
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Pages
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Style
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">More
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <div class="nav2-btn">
+                <p>SUBMIT PROPERTY</p><i class="fa-solid fa-plus"></i>
+            </div>
+        </div>
+    </div>
+ 
+    <!-- main -->
+    <div class="container-fluid main">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+
+                    <!-- formmmmmmmmmmmmmmmm -->
+                    <form>
+                        <h2>Property Type</h2>
+                        <input type="radio" id="ANY" name="fav" value="ANY">
+                        <label for="html">ANY</label><br>
+                        <input type="radio" id="HOUSE" name="fav" value="HOUSE">
+                        <label for="html">HOUSE</label><br>
+                        <input type="radio" id="APARTMENT" name="fav" value="APARTMENT">
+                        <label for="css">APARTMENT</label><br>
+                        <input type="radio" id="OFFICE" name="fav" value="OFFICE">
+                        <label for="javascript">OFFICE</label>
+
+                        <h2 class="offer">Offer Type</h2>
+                        <select name="offer type" class="offer-type">
+                            <option value="offer type Active">offer type</option>
+                            <option value="Active">Active</option>
+                            <option value="For rent">For rent</option>
+                            <option value="For Sale">For Sale</option>
+                            <option value="Hot Offer">Hot Offer!</option>
+                            <option value="NO Fees">No Fees!</option>
+                            <option value="Open House">Open House</option>
+                            <option value="Pending">Pending</option>
+                            <option value="Sold">Sold!</option>
+                        </select>
+                        <h2>Price</h2>
+                        <input type="text" class="price-size" placeholder="From">
+                        <input class="price-size" type="text" placeholder="TO">
+                        <h2>City</h2>
+                        <select name="City" id="City" class="offer-type">
+                            <option value="City Active">City</option>
+                            <option value="Shicago">Shicago</option>
+                            <option value="Los Angeles">Los Angeles</option>
+                            <option value="New York">New York</option>
+                            <option value="Seattle">Seattle</option>
+                        </select>
+                        <h2>Zipcode</h2>
+                        <input class="offer-type" type="text" placeholder="Zipcode">
+                        <h2>Nighborhood</h2>
+                        <select class="offer-type" name="offer type" id="offer type">
+                            <option value="offer type Active">offer type</option>
+                            <option value="Active">Active</option>
+                            <option value="For rent">For rent</option>
+                            <option value="For Sale">For Sale</option>
+                            <option value="Hot Offer">Hot Offer!</option>
+                            <option value="NO Fees">No Fees!</option>
+                            <option value="Open House">Open House</option>
+                            <option value="Pending">Pending</option>
+                            <option value="Sold">Sold!</option>
+                        </select>
+                        <h2>Street</h2>
+                        <select class="offer-type" name="offer type" id="offer type">
+                            <option value="offer type Active">offer type</option>
+                            <option value="Active">Active</option>
+                            <option value="For rent">For rent</option>
+                            <option value="For Sale">For Sale</option>
+                            <option value="Hot Offer">Hot Offer!</option>
+                            <option value="NO Fees">No Fees!</option>
+                            <option value="Open House">Open House</option>
+                            <option value="Pending">Pending</option>
+                            <option value="Sold">Sold!</option>
+                        </select>
+                        <h2>Keyword</h2>
+                        <select class="offer-type" name="City" id="City">
+                            <option value="Enter a City Zimname Code Active">Enter a City Zimname Code</option>
+                            <option value="City">City</option>
+                            <option value="Shicago">Shicago</option>
+                            <option value="Los Angeles">Los Angeles</option>
+                            <option value="New York">New York</option>
+                            <option value="Seattle">Seattle</option>
+                        </select>
+
+                        <h2>Bedroom</h2>
+                        <select class="price-size" name="From" id="From">
+                            <option value="From">From</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5+">5+</option>
+                        </select>
+                        <select class="price-size" name="TO" id="TO">
+                            <option value="TO">TO</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5+">5+</option>
+                        </select>
+                        <h2>Bathroom</h2>
+                        <select class="price-size" name="From" id="From">
+                            <option value="From">From</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5+">5+</option>
+                        </select>
+                        <select class="price-size" name="TO" id="TO">
+                            <option value="TO">TO</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5+">5+</option>
+                        </select>
+                        <h2>PROPERTY SIZE (FT²)</h2>
+                        <input class="price-size" type="text" placeholder="From">
+                        <input class="price-size" type="text" placeholder="To">
+                        <h2>YEAR</h2>
+                        <input class="price-size" type="text" placeholder="From">
+                        <input class="price-size" type="text" placeholder="To">
+                        <h2>LOT SIZE (FT²)</h2>
+                        <input class="price-size" type="text" placeholder="From">
+                        <input class="price-size" type="text" placeholder="To">
+                        <h2>property ID</h2>
+                        <input class="offer-type" type="text" placeholder="Property ID">
+                        <h2>Fatures</h2>
+                        <input type="checkbox" id="feature1" name="feature1" value="feature1">
+                        <label for="feature1">AIR CONDITIONING</label><br>
+                        <input type="checkbox" id="feature1" name="feature1" value="feature1">
+                        <label for="feature1">CEILINGFan</label><br>
+                        <input type="checkbox" id="feature1" name="feature1" value="feature1">
+                        <label for="feature1">DISHWASHER</label><br>
+                        <input type="checkbox" id="feature1" name="feature1" value="feature1">
+                        <label for="feature1">FIREPLACE</label><br>
+                        <input type="checkbox" id="feature1" name="feature1" value="feature1">
+                        <label for="feature1">MICROWAVE</label><br>
+                        <input type="checkbox" id="feature1" name="feature1" value="feature1">
+                        <label for="feature1">PATIO</label><br>
+                        <input type="checkbox" id="feature1" name="feature1" value="feature1">
+                        <label for="feature1">PORCH</label><br>
+                        <input type="checkbox" id="feature1" name="feature1" value="feature1">
+                        <label for="feature1">REFRIGERATOR</label><br>
+
+
+                        <br>
+
+                        <br><input class="btn" type="submit" value="Clear">
+                    </form>
+
+                </div>
+                <div class="col-9 main-right">
+                    <div class="nav3">
+                        <div class="d3-left">
+                            <div class="content1">
+                                <i class="fa-solid fa-arrow-down-short-wide"></i>
+                                sort:
+                            </div>
+                            <div class="content2">
+                                <a href="#">NewEst</a>
+                                <a href="#">Popular</a>
+                                <a href="#">Price(Higt to Low)</a>
+                                <a href="#">Price(Low to High)</a>
+                            </div>
+                            <div class="content3">
+                                <i class="fa-solid fa-table-cells-large"></i>
+                                <i class="fa-solid fa-table-cells-large"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav4">
+                        <p class="nav4-big">82 Found</p>
+                        <p>Save this Search</p>
+                    </div>
+
+                    <!-- photos -->
+
+                    <div class="main-right-content">
+                        <div class="swipe">
+                            <div class="content_right">
+
+                                <!-- Scroll Snap -->
+                                <div class="contain">
+                                    <div class="card"><img src="images/bright-and-sunny-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/minimalist-and-bright-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/modern-apartment-in-the-city-center-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/two-storey-modern-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/warm-and-modern-studio-apartment-600x375.jpg" alt=""></div>
+                                </div>
+                                <div class="contain">
+                                    <div class="card"><img src="images/minimalist-and-bright-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/bright-and-sunny-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/modern-apartment-in-the-city-center-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/two-storey-modern-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/warm-and-modern-studio-apartment-600x375.jpg" alt=""></div>
+                                </div>
+                               
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-right-content">
+                        <div class="swipe">
+                            <div class="content_right">
+
+                                <!-- Scroll Snap -->
+                                <div class="contain">
+                                    <div class="card"><img src="images/modern-apartment-in-the-city-center-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/bright-and-sunny-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/minimalist-and-bright-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/two-storey-modern-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/warm-and-modern-studio-apartment-600x375.jpg" alt=""></div>
+                                </div>
+                                <div class="contain">
+                                    <div class="card"><img src="images/two-storey-modern-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/minimalist-and-bright-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/bright-and-sunny-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/modern-apartment-in-the-city-center-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/warm-and-modern-studio-apartment-600x375.jpg" alt=""></div>
+                                </div>
+                               
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-right-content">
+                        <div class="swipe">
+                            <div class="content_right">
+                                
+                                <!-- Scroll Snap -->
+                                <div class="contain">
+                                    <div class="card"><img src="images/warm-and-modern-studio-apartment-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/bright-and-sunny-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/minimalist-and-bright-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/modern-apartment-in-the-city-center-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/two-storey-modern-flat-600x375.jpg" alt=""></div>
+                                </div>
+                                <div class="contain">
+                                    <div class="card"><img src="images/minimalist-and-bright-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/bright-and-sunny-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/modern-apartment-in-the-city-center-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/two-storey-modern-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/warm-and-modern-studio-apartment-600x375.jpg" alt=""></div>
+                                </div>
+                               
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-right-content">
+                        <div class="swipe">
+                            <div class="content_right">
+
+                                <!-- Scroll Snap -->
+                                <div class="contain">
+                                    <div class="card"><img src="images/minimalist-and-bright-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/bright-and-sunny-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/modern-apartment-in-the-city-center-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/two-storey-modern-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/warm-and-modern-studio-apartment-600x375.jpg" alt=""></div>
+                                </div>
+                                <div class="contain">
+                                    <div class="card"><img src="images/modern-apartment-in-the-city-center-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/minimalist-and-bright-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/bright-and-sunny-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/two-storey-modern-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/warm-and-modern-studio-apartment-600x375.jpg" alt=""></div>
+                                </div>
+                               
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-right-content">
+                        <div class="swipe">
+                            <div class="content_right">
+
+                                <!-- Scroll Snap -->
+                                <div class="contain">
+                                    <div class="card"><img src="images/two-storey-modern-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/bright-and-sunny-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/minimalist-and-bright-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/modern-apartment-in-the-city-center-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/warm-and-modern-studio-apartment-600x375.jpg" alt=""></div>
+                                </div>
+                                <div class="contain">
+                                    <div class="card"><img src="images/warm-and-modern-studio-apartment-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/minimalist-and-bright-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/bright-and-sunny-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/modern-apartment-in-the-city-center-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/two-storey-modern-flat-600x375.jpg" alt=""></div>
+                                </div>
+                               
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-right-content">
+                        <div class="swipe">
+                            <div class="content_right">
+
+                                <!-- Scroll Snap -->
+                                <div class="contain">
+                                    <div class="card"><img src="images/modern-apartment-in-the-city-center-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/bright-and-sunny-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/minimalist-and-bright-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/two-storey-modern-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/warm-and-modern-studio-apartment-600x375.jpg" alt=""></div>
+                                </div>
+                                <div class="contain">
+                                    <div class="card"><img src="images/minimalist-and-bright-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/bright-and-sunny-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/modern-apartment-in-the-city-center-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/two-storey-modern-flat-600x375.jpg" alt=""></div>
+                                    <div class="card"><img src="images/warm-and-modern-studio-apartment-600x375.jpg" alt=""></div>
+                                </div>
+                               
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- fooer -->
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo">
+                    <h4><img src="./icons/logo-50-white.png" alt=""></h4>
+                </a>
+                <p class="white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quaerat doloribus totam repellat
+                    hic?Eligendi!
+                </p>
+            </div>
+            <div class="footer_2">
+                <h4 class="white">Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <div class="footer_3">
+                <h4 class="white">Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms And Conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer_4">
+                <h4 class="white">Contact Us</h4>
+                <div>
+                    <p class="white">1234567889</p>
+                    <p class="white">jutt@gmail.com</p>
+                </div>
+                <ul class="footer_socials">
+                     
+                        <i  class="fa-brands fa-facebook white"></i>
+                        <i class="fa-brands fa-twitter white"></i>
+                        <i class="fa-brands fa-instagram white"></i>
+                        <i class="fa-brands fa-linkedin white"></i>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <small>copyright & copy; MYHome</small>
+            <!-- <small>copyright & copy; Egator Youtube Tutorial</small> -->
+        </div>
+    </footer>
+
+</body>
+
+</html>
